@@ -43,6 +43,6 @@ to I80 because according to the predictions you won't encounter periods of activ
 ## Notes
 This program will not run out of the box. It is missing important API keys from both google maps and darksky.net API's. I removed these for privacy reasons and also to avoid being charged for useage outside of my own.
 
-A Google Maps API Key will be missing on Line 15 in map.html - This key goes at the end of Google URL.
+A Google Maps API Key will be missing on Line 15 in map.html - This key goes at the end of the Google URL.
 
 A DarkSky.net API Key will be missing on Line 3 weather.js - This key goes in the API Key variable.
