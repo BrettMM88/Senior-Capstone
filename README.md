@@ -25,6 +25,21 @@ is currently snow coming down along I35 in Iowa but by the time your expected to
 neither options is perfect. They both have snow. However, you know by the time you get to Iowa the snow should be cleared and road crews have probably attended to the roads. This will make you select the route using I35 
 to I80 because according to the predictions you won't encounter periods of active snow. 
 
+## Future Developments
+- Use the user's live GPS location to update the route as they travel.
+- Transition from web application only into applications for Android and iOS.
+- Expand upon the weather information provided within the markers.
+- Speed up the application. 
+- Look into storing information for routes between A & B. 
+	- Currently weather information is updated only every 5 minutes on the DarkSky API.
+	- If a route has weather generated for it  within the last 5 minutes we shouldn't need to re-request for information.
+- Cleaner UI Elements such as loading markers.
+- Change from CSS Grid to using bootstrap. 
+
+	
+## Known bugs
+- If you input an invalid route the application doesn't re-enable the search button.
+
 ## Notes
 This program will not run out of the box. It is missing important API keys from both google maps and darksky.net API's. I removed these for privacy reasons and also to avoid being charged for useage outside of my own.
 
